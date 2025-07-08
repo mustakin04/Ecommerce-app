@@ -31,6 +31,15 @@ This project is a responsive, single-page e-commerce web application built with 
 Try the application live here:
 https://cozy-muffin-308eb3.netlify.app/
 
+# Getting Started
+# Prerequisites
+Ensure you have Node.js and npm installed on your development machine.
+
+# Installation Steps
+1.Clone the repository
+git clone https:
+
+
 
 
 
