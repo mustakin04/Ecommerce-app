@@ -1,4 +1,5 @@
 Mini E-Commerce SPA
+
 A small single-page e-commerce web application built with React.js.
 Users can browse products, view product details, add items to a cart, adjust quantities, and simulate checkout via a modal form. No user authentication is required.
 
