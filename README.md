@@ -16,3 +16,15 @@ This project is a responsive, single-page e-commerce web application built with 
 
 6)SPA Navigation: Built with React Router for seamless client-side routing.
 
+# Technology Stack
+ *React.js (Functional Components and Hooks)
+
+ *React Router for navigation
+
+ *Tailwind CSS for styling
+
+ *React Icons for UI icons
+
+ *Hosted on [Netlify/Vercel/Render] (live demo link below)
+
+
