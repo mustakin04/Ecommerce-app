@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 import { ImCross } from "react-icons/im";
 import CheckoutModel from "./CheckoutModel";
+import Button from "./Button";
 
 const CartSidebar = ({ setShow, products, setProducts,handleCheckOut }) => {
   
@@ -81,14 +82,7 @@ const CartSidebar = ({ setShow, products, setProducts,handleCheckOut }) => {
       ))}
 
       <div className="mt-14 text-right font-bold text-xl">Total: ${total}</div>
-      <div>
-        <button className="w-full mt-[100px] bg-black text-white py-2 rounded hover:bg-gray-800 
-        transition"
-        onClick={()=>handleCheckOut()}>
-          {" "}
-          Checkout
-        </button>
-      </div>
+      <Button onClick={handleCheckOut}></Button>
       
     </div>
   );
