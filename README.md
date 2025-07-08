@@ -27,4 +27,10 @@ This project is a responsive, single-page e-commerce web application built with 
 
  *Hosted on [Netlify/Vercel/Render] (live demo link below)
 
+ # Live Demo
+Try the application live here:
+https://cozy-muffin-308eb3.netlify.app/
+
+
+
 
