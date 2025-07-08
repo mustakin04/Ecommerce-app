@@ -37,7 +37,28 @@ Ensure you have Node.js and npm installed on your development machine.
 
 # Installation Steps
 1.Clone the repository
-git clone https:
+git clone https:https://github.com/mustakin04/Ecommerce-app.git
+
+2.Change into the project directory: cd qtec-ecommerce
+
+# Project Structure Overview
+> /src/Pages — Main page components (Home, Product Detail)
+
+> /src/Components — Reusable UI components (ProductCard, CartSidebar, CheckoutModal)
+
+> /src/data — Sample product data
+
+# Usage
+> Browse products on the home page.
+
+> Click on a product to view detailed information.
+
+> Add products to the cart from anywhere in the app.
+
+> Manage cart items in the sidebar with quantity controls.
+
+> Use the Checkout button to open a form and submit order details.
+
 
 
 
