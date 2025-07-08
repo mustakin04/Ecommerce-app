@@ -13,10 +13,18 @@ const ProductDetail = () => {
   const product = products.find((item) => item.id === id);
 
   const handleAddToCart = () => {
-    const exists = cartItems.find((item) => item.id === product.id);
-    if (!exists) {
-      setCartItems([...cartItems, product]);
-    }
+    setCartItems((prevItems) => {
+      const exists = prevItems.find((item) => item.id === product.id);
+      if (exists) {
+        return prevItems.map((item) =>
+          item.id === product.id
+            ? { ...item, quantity: item.quantity + 1 }
+            : item
+        );
+      } else {
+        return [...prevItems, { ...product, quantity: 1 }];
+      }
+    });
     setShow(true);
   };
 
@@ -53,8 +61,13 @@ const ProductDetail = () => {
         </div>
       </div>
 
-      {/*  Pass cartItems array */}
-      {show && <CartSidebar setShow={setShow} products={cartItems} />}
+      {show && (
+        <CartSidebar
+          setShow={setShow}
+          products={cartItems}
+          setProducts={setCartItems}
+        />
+      )}
     </Container>
   );
 };
